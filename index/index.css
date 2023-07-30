@@ -105,8 +105,8 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: #ffffff;
-	opacity: .65;
+ 	/* background: #ffffff; */ 
+	/* opacity: .70; */
 	text-align: left;
 }
 
@@ -185,14 +185,14 @@ a:hover{
 }
   
   .topnav {
-	background-color: #ededed;
+	background-color: #000000;
 	overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
 	float: left;
-	color: #333;
+	color: #ffffff;
 	text-align: center;
 	font-family: helvetica, sans-serif;
 	font-size: 1.6em;
@@ -203,12 +203,12 @@ a:hover{
   
   /* Change the color of links on hover */
   .topnav a:hover {
-	background-color: #ffffff;
-	color: black;
+	background-color: #A9A9A9;
+	color: #ffffff; /* text color */
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-	background-color: #dadbdc;
-	color: white;
+	background-color: #ffffff;
+	color: #000000; /* text color */
   }
